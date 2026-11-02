@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Monitor, TrendingUp, Cpu, CheckCircle2 } from 'lucide-react';
+import agencyStrategyImg from '../assets/images/agency_strategy_setup_1793441097212.jpg';
 
 interface WhyGavinStudioProps {
   onOpenConsultation: () => void;
@@ -68,7 +69,7 @@ export const WhyGavinStudio: React.FC<WhyGavinStudioProps> = ({ onOpenConsultati
               {/* Workspace Studio image */}
               <div className="relative rounded-[22px] overflow-hidden aspect-[16/10] bg-[#14101A]">
                 <img
-                  src="/src/assets/images/agency_strategy_setup_1793441097212.jpg"
+                  src={agencyStrategyImg}
                   alt="Gavin Studio Growth & Automation Laboratory"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
